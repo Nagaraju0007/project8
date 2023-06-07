@@ -7,7 +7,7 @@
 <body bgcolor="#00ffff">
 <center>
 <form action="./updatedetails">
-  selet product id to update:  <select name="t1">
+  select product id to update:  <select name="t1">
         {% for p in records %}
             <option value="{{ p.pid }}">{{ p.pid }}</option>
         {% endfor %}
